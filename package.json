@@ -1,0 +1,11 @@
+{
+  "name": "meu-financeiro",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Meu financeiro - controle de gastos, metas e contas",
+  "dependencies": {
+    "@capacitor/android": "^7.0.0",
+    "@capacitor/cli": "^7.0.0",
+    "@capacitor/core": "^7.0.0"
+  }
+}
