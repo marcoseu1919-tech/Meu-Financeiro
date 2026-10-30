@@ -26,6 +26,9 @@ jobs:
       - name: Criar projeto Android
         run: npx cap add android
 
+      - name: Gerar icones
+        run: npx @capacitor/assets generate --android --iconBackgroundColor '#000000' --iconBackgroundColorDark '#000000'
+
       - name: Sincronizar app
         run: npx cap sync android
 
